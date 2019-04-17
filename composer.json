@@ -1,0 +1,26 @@
+{
+    "name": "tribecloud/laravel-preset",
+    "description": "Laravel preset",
+    "license": "MIT",
+    "keywords": ["laravel", "preset"],
+    "authors": [
+        {
+            "name": "Eris Ristemena",
+            "email": "e.ristemena@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^5.7"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Tribecloud\\LaravelPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Tribecloud\\LaravelPreset\\TribecloudServiceProvider"]
+        }
+    }
+}
